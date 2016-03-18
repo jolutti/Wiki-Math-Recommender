@@ -1,0 +1,32 @@
+{
+  "manifest_version": 2,
+  "name": "Wikirecommender!",
+  "version": "1.0",
+  "description": "My first Chrome extension.",
+  "browser_action": {
+    "default_icon": "icon.png",
+	//"default_popup": "popup.html",
+	"default_title": "Wikirecommender"
+  },
+    "content_scripts": [
+        {
+        "matches": [
+            "https://*.wikipedia.org/*",
+			"http://johann.lutterodt.info/*",
+			"http://localhost/*"
+            ],
+        "js": ["jquery-1.12.1.min.js","jquery-ui.min.js","script.js"],
+        //"run_at": "document_end"         // pay attention to this line
+		"css": ["jquery-ui.min.css"]
+        }
+    ],
+    "background": {
+        "scripts": ["jquery-1.12.1.min.js","background.js"],
+        "persistent": false
+    }
+	,
+	"web_accessible_resources": [
+    "images/*.png"
+  ]
+  
+}
