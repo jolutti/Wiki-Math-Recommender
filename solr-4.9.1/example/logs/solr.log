@@ -6652,3 +6652,437 @@ INFO  - 2016-03-18 13:39:35.557; org.apache.solr.core.SolrCore; [wiki1] webapp=/
 INFO  - 2016-03-18 13:39:35.568; org.apache.solr.core.SolrCore; [wiki1] webapp=/solr path=/admin/system params={wt=json&_=1458304775525} status=0 QTime=1 
 INFO  - 2016-03-18 13:39:35.577; org.apache.solr.core.SolrCore; [wiki1] webapp=/solr path=/admin/file/ params={file=admin-extra.html&_=1458304775527} status=0 QTime=1 
 INFO  - 2016-03-18 13:39:35.590; org.apache.solr.core.SolrCore; [wiki1] webapp=/solr path=/admin/ping params={action=status&wt=json&_=1458304775528} status=503 QTime=3 
+INFO  - 2016-03-19 18:26:35.323; org.eclipse.jetty.server.Server; jetty-8.1.10.v20130312
+INFO  - 2016-03-19 18:26:35.345; org.eclipse.jetty.deploy.providers.ScanningAppProvider; Deployment monitor C:\Users\User\Dropbox\Master\Project\Wiki-Math-Recommender\solr-4.9.1\example\contexts at interval 0
+INFO  - 2016-03-19 18:26:35.355; org.eclipse.jetty.deploy.DeploymentManager; Deployable added: C:\Users\User\Dropbox\Master\Project\Wiki-Math-Recommender\solr-4.9.1\example\contexts\solr-jetty-context.xml
+INFO  - 2016-03-19 18:26:36.909; org.eclipse.jetty.webapp.StandardDescriptorProcessor; NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+INFO  - 2016-03-19 18:26:36.964; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init()
+INFO  - 2016-03-19 18:26:36.983; org.apache.solr.core.SolrResourceLoader; JNDI not configured for solr (NoInitialContextEx)
+INFO  - 2016-03-19 18:26:36.986; org.apache.solr.core.SolrResourceLoader; solr home defaulted to 'solr/' (could not find system property or JNDI)
+INFO  - 2016-03-19 18:26:36.989; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'solr/'
+INFO  - 2016-03-19 18:26:37.129; org.apache.solr.core.ConfigSolr; Loading container configuration from C:\Users\User\Dropbox\Master\Project\Wiki-Math-Recommender\solr-4.9.1\example\solr\solr.xml
+INFO  - 2016-03-19 18:26:37.257; org.apache.solr.core.CorePropertiesLocator; Config-defined core root directory: C:\Users\User\Dropbox\Master\Project\Wiki-Math-Recommender\solr-4.9.1\example\solr
+INFO  - 2016-03-19 18:26:37.267; org.apache.solr.core.CoreContainer; New CoreContainer 1409545055
+INFO  - 2016-03-19 18:26:37.270; org.apache.solr.core.CoreContainer; Loading cores into CoreContainer [instanceDir=solr/]
+INFO  - 2016-03-19 18:26:37.282; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting socketTimeout to: 0
+INFO  - 2016-03-19 18:26:37.285; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting urlScheme to: null
+INFO  - 2016-03-19 18:26:37.290; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting connTimeout to: 0
+INFO  - 2016-03-19 18:26:37.293; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxConnectionsPerHost to: 20
+INFO  - 2016-03-19 18:26:37.297; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting corePoolSize to: 0
+INFO  - 2016-03-19 18:26:37.309; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maximumPoolSize to: 2147483647
+INFO  - 2016-03-19 18:26:37.312; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxThreadIdleTime to: 5
+INFO  - 2016-03-19 18:26:37.314; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting sizeOfQueue to: -1
+INFO  - 2016-03-19 18:26:37.317; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting fairnessPolicy to: false
+INFO  - 2016-03-19 18:26:37.611; org.apache.solr.logging.LogWatcher; SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+INFO  - 2016-03-19 18:26:37.615; org.apache.solr.logging.LogWatcher; Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+INFO  - 2016-03-19 18:26:37.618; org.apache.solr.core.CoreContainer; Host Name: 
+INFO  - 2016-03-19 18:26:42.188; org.apache.solr.core.CorePropertiesLocator; Looking for core definitions underneath C:\Users\User\Dropbox\Master\Project\Wiki-Math-Recommender\solr-4.9.1\example\solr
+INFO  - 2016-03-19 18:26:42.206; org.apache.solr.core.CorePropertiesLocator; Found core collection1 in C:\Users\User\Dropbox\Master\Project\Wiki-Math-Recommender\solr-4.9.1\example\solr\collection1\
+INFO  - 2016-03-19 18:26:42.213; org.apache.solr.core.CorePropertiesLocator; Found core wiki1 in C:\Users\User\Dropbox\Master\Project\Wiki-Math-Recommender\solr-4.9.1\example\solr\wiki1\
+INFO  - 2016-03-19 18:26:42.217; org.apache.solr.core.CorePropertiesLocator; Found 2 core definitions
+INFO  - 2016-03-19 18:26:42.220; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'C:\Users\User\Dropbox\Master\Project\Wiki-Math-Recommender\solr-4.9.1\example\solr\collection1\'
+INFO  - 2016-03-19 18:26:42.220; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'C:\Users\User\Dropbox\Master\Project\Wiki-Math-Recommender\solr-4.9.1\example\solr\wiki1\'
+INFO  - 2016-03-19 18:26:42.326; org.apache.solr.core.SolrConfig; Adding specified lib dirs to ClassLoader
+INFO  - 2016-03-19 18:26:42.332; org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/User/Dropbox/Master/Project/Wiki-Math-Recommender/solr-4.9.1/contrib/extraction/lib/apache-mime4j-core-0.7.2.jar' to classloader
+INFO  - 2016-03-19 18:26:42.331; org.apache.solr.core.SolrConfig; Adding specified lib dirs to ClassLoader
+INFO  - 2016-03-19 18:26:42.341; org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/User/Dropbox/Master/Project/Wiki-Math-Recommender/solr-4.9.1/contrib/extraction/lib/apache-mime4j-dom-0.7.2.jar' to classloader
+INFO  - 2016-03-19 18:26:42.344; org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/User/Dropbox/Master/Project/Wiki-Math-Recommender/solr-4.9.1/contrib/dataimporthandler/lib/activation-1.1.1.jar' to classloader
+INFO  - 2016-03-19 18:26:42.359; org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/User/Dropbox/Master/Project/Wiki-Math-Recommender/solr-4.9.1/contrib/extraction/lib/aspectjrt-1.6.11.jar' to classloader
+INFO  - 2016-03-19 18:26:42.365; org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/User/Dropbox/Master/Project/Wiki-Math-Recommender/solr-4.9.1/contrib/dataimporthandler/lib/mail-1.4.3.jar' to classloader
+INFO  - 2016-03-19 18:26:42.370; org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/User/Dropbox/Master/Project/Wiki-Math-Recommender/solr-4.9.1/contrib/extraction/lib/bcmail-jdk15-1.45.jar' to classloader
+INFO  - 2016-03-19 18:26:42.381; org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/User/Dropbox/Master/Project/Wiki-Math-Recommender/solr-4.9.1/dist/solr-dataimporthandler-4.9.1.jar' to classloader
+INFO  - 2016-03-19 18:26:42.391; org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/User/Dropbox/Master/Project/Wiki-Math-Recommender/solr-4.9.1/dist/solr-dataimporthandler-extras-4.9.1.jar' to classloader
+INFO  - 2016-03-19 18:26:42.385; org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/User/Dropbox/Master/Project/Wiki-Math-Recommender/solr-4.9.1/contrib/extraction/lib/bcprov-jdk15-1.45.jar' to classloader
+INFO  - 2016-03-19 18:26:42.408; org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/User/Dropbox/Master/Project/Wiki-Math-Recommender/solr-4.9.1/contrib/extraction/lib/apache-mime4j-core-0.7.2.jar' to classloader
+INFO  - 2016-03-19 18:26:42.413; org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/User/Dropbox/Master/Project/Wiki-Math-Recommender/solr-4.9.1/contrib/extraction/lib/boilerpipe-1.1.0.jar' to classloader
+INFO  - 2016-03-19 18:26:42.421; org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/User/Dropbox/Master/Project/Wiki-Math-Recommender/solr-4.9.1/contrib/extraction/lib/apache-mime4j-dom-0.7.2.jar' to classloader
+INFO  - 2016-03-19 18:26:42.427; org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/User/Dropbox/Master/Project/Wiki-Math-Recommender/solr-4.9.1/contrib/extraction/lib/commons-compress-1.7.jar' to classloader
+INFO  - 2016-03-19 18:26:42.432; org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/User/Dropbox/Master/Project/Wiki-Math-Recommender/solr-4.9.1/contrib/extraction/lib/aspectjrt-1.6.11.jar' to classloader
+INFO  - 2016-03-19 18:26:42.438; org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/User/Dropbox/Master/Project/Wiki-Math-Recommender/solr-4.9.1/contrib/extraction/lib/dom4j-1.6.1.jar' to classloader
+INFO  - 2016-03-19 18:26:42.453; org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/User/Dropbox/Master/Project/Wiki-Math-Recommender/solr-4.9.1/contrib/extraction/lib/bcmail-jdk15-1.45.jar' to classloader
+INFO  - 2016-03-19 18:26:42.458; org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/User/Dropbox/Master/Project/Wiki-Math-Recommender/solr-4.9.1/contrib/extraction/lib/fontbox-1.8.4.jar' to classloader
+INFO  - 2016-03-19 18:26:42.463; org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/User/Dropbox/Master/Project/Wiki-Math-Recommender/solr-4.9.1/contrib/extraction/lib/bcprov-jdk15-1.45.jar' to classloader
+INFO  - 2016-03-19 18:26:42.478; org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/User/Dropbox/Master/Project/Wiki-Math-Recommender/solr-4.9.1/contrib/extraction/lib/icu4j-53.1.jar' to classloader
+INFO  - 2016-03-19 18:26:42.483; org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/User/Dropbox/Master/Project/Wiki-Math-Recommender/solr-4.9.1/contrib/extraction/lib/boilerpipe-1.1.0.jar' to classloader
+INFO  - 2016-03-19 18:26:42.487; org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/User/Dropbox/Master/Project/Wiki-Math-Recommender/solr-4.9.1/contrib/extraction/lib/isoparser-1.0-RC-1.jar' to classloader
+INFO  - 2016-03-19 18:26:42.503; org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/User/Dropbox/Master/Project/Wiki-Math-Recommender/solr-4.9.1/contrib/extraction/lib/commons-compress-1.7.jar' to classloader
+INFO  - 2016-03-19 18:26:42.508; org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/User/Dropbox/Master/Project/Wiki-Math-Recommender/solr-4.9.1/contrib/extraction/lib/jdom-1.0.jar' to classloader
+INFO  - 2016-03-19 18:26:42.514; org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/User/Dropbox/Master/Project/Wiki-Math-Recommender/solr-4.9.1/contrib/extraction/lib/dom4j-1.6.1.jar' to classloader
+INFO  - 2016-03-19 18:26:42.530; org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/User/Dropbox/Master/Project/Wiki-Math-Recommender/solr-4.9.1/contrib/extraction/lib/jempbox-1.8.4.jar' to classloader
+INFO  - 2016-03-19 18:26:42.534; org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/User/Dropbox/Master/Project/Wiki-Math-Recommender/solr-4.9.1/contrib/extraction/lib/fontbox-1.8.4.jar' to classloader
+INFO  - 2016-03-19 18:26:42.539; org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/User/Dropbox/Master/Project/Wiki-Math-Recommender/solr-4.9.1/contrib/extraction/lib/jhighlight-1.0.jar' to classloader
+INFO  - 2016-03-19 18:26:42.555; org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/User/Dropbox/Master/Project/Wiki-Math-Recommender/solr-4.9.1/contrib/extraction/lib/icu4j-53.1.jar' to classloader
+INFO  - 2016-03-19 18:26:42.560; org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/User/Dropbox/Master/Project/Wiki-Math-Recommender/solr-4.9.1/contrib/extraction/lib/juniversalchardet-1.0.3.jar' to classloader
+INFO  - 2016-03-19 18:26:42.565; org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/User/Dropbox/Master/Project/Wiki-Math-Recommender/solr-4.9.1/contrib/extraction/lib/isoparser-1.0-RC-1.jar' to classloader
+INFO  - 2016-03-19 18:26:42.581; org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/User/Dropbox/Master/Project/Wiki-Math-Recommender/solr-4.9.1/contrib/extraction/lib/metadata-extractor-2.6.2.jar' to classloader
+INFO  - 2016-03-19 18:26:42.586; org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/User/Dropbox/Master/Project/Wiki-Math-Recommender/solr-4.9.1/contrib/extraction/lib/jdom-1.0.jar' to classloader
+INFO  - 2016-03-19 18:26:42.591; org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/User/Dropbox/Master/Project/Wiki-Math-Recommender/solr-4.9.1/contrib/extraction/lib/pdfbox-1.8.4.jar' to classloader
+INFO  - 2016-03-19 18:26:42.606; org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/User/Dropbox/Master/Project/Wiki-Math-Recommender/solr-4.9.1/contrib/extraction/lib/jempbox-1.8.4.jar' to classloader
+INFO  - 2016-03-19 18:26:42.611; org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/User/Dropbox/Master/Project/Wiki-Math-Recommender/solr-4.9.1/contrib/extraction/lib/poi-3.10.1.jar' to classloader
+INFO  - 2016-03-19 18:26:42.616; org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/User/Dropbox/Master/Project/Wiki-Math-Recommender/solr-4.9.1/contrib/extraction/lib/jhighlight-1.0.jar' to classloader
+INFO  - 2016-03-19 18:26:42.631; org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/User/Dropbox/Master/Project/Wiki-Math-Recommender/solr-4.9.1/contrib/extraction/lib/poi-ooxml-3.10.1.jar' to classloader
+INFO  - 2016-03-19 18:26:42.635; org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/User/Dropbox/Master/Project/Wiki-Math-Recommender/solr-4.9.1/contrib/extraction/lib/juniversalchardet-1.0.3.jar' to classloader
+INFO  - 2016-03-19 18:26:42.640; org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/User/Dropbox/Master/Project/Wiki-Math-Recommender/solr-4.9.1/contrib/extraction/lib/poi-ooxml-schemas-3.10.1.jar' to classloader
+INFO  - 2016-03-19 18:26:42.658; org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/User/Dropbox/Master/Project/Wiki-Math-Recommender/solr-4.9.1/contrib/extraction/lib/metadata-extractor-2.6.2.jar' to classloader
+INFO  - 2016-03-19 18:26:42.663; org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/User/Dropbox/Master/Project/Wiki-Math-Recommender/solr-4.9.1/contrib/extraction/lib/poi-scratchpad-3.10.1.jar' to classloader
+INFO  - 2016-03-19 18:26:42.668; org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/User/Dropbox/Master/Project/Wiki-Math-Recommender/solr-4.9.1/contrib/extraction/lib/pdfbox-1.8.4.jar' to classloader
+INFO  - 2016-03-19 18:26:42.673; org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/User/Dropbox/Master/Project/Wiki-Math-Recommender/solr-4.9.1/contrib/extraction/lib/rome-0.9.jar' to classloader
+INFO  - 2016-03-19 18:26:42.678; org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/User/Dropbox/Master/Project/Wiki-Math-Recommender/solr-4.9.1/contrib/extraction/lib/poi-3.10.1.jar' to classloader
+INFO  - 2016-03-19 18:26:42.682; org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/User/Dropbox/Master/Project/Wiki-Math-Recommender/solr-4.9.1/contrib/extraction/lib/tagsoup-1.2.1.jar' to classloader
+INFO  - 2016-03-19 18:26:42.698; org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/User/Dropbox/Master/Project/Wiki-Math-Recommender/solr-4.9.1/contrib/extraction/lib/poi-ooxml-3.10.1.jar' to classloader
+INFO  - 2016-03-19 18:26:42.702; org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/User/Dropbox/Master/Project/Wiki-Math-Recommender/solr-4.9.1/contrib/extraction/lib/tika-core-1.5.jar' to classloader
+INFO  - 2016-03-19 18:26:42.707; org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/User/Dropbox/Master/Project/Wiki-Math-Recommender/solr-4.9.1/contrib/extraction/lib/poi-ooxml-schemas-3.10.1.jar' to classloader
+INFO  - 2016-03-19 18:26:42.723; org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/User/Dropbox/Master/Project/Wiki-Math-Recommender/solr-4.9.1/contrib/extraction/lib/tika-parsers-1.5.jar' to classloader
+INFO  - 2016-03-19 18:26:42.728; org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/User/Dropbox/Master/Project/Wiki-Math-Recommender/solr-4.9.1/contrib/extraction/lib/poi-scratchpad-3.10.1.jar' to classloader
+INFO  - 2016-03-19 18:26:42.733; org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/User/Dropbox/Master/Project/Wiki-Math-Recommender/solr-4.9.1/contrib/extraction/lib/tika-xmp-1.5.jar' to classloader
+INFO  - 2016-03-19 18:26:42.752; org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/User/Dropbox/Master/Project/Wiki-Math-Recommender/solr-4.9.1/contrib/extraction/lib/vorbis-java-core-0.1.jar' to classloader
+INFO  - 2016-03-19 18:26:42.747; org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/User/Dropbox/Master/Project/Wiki-Math-Recommender/solr-4.9.1/contrib/extraction/lib/rome-0.9.jar' to classloader
+INFO  - 2016-03-19 18:26:42.758; org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/User/Dropbox/Master/Project/Wiki-Math-Recommender/solr-4.9.1/contrib/extraction/lib/vorbis-java-tika-0.1.jar' to classloader
+INFO  - 2016-03-19 18:26:42.773; org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/User/Dropbox/Master/Project/Wiki-Math-Recommender/solr-4.9.1/contrib/extraction/lib/tagsoup-1.2.1.jar' to classloader
+INFO  - 2016-03-19 18:26:42.778; org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/User/Dropbox/Master/Project/Wiki-Math-Recommender/solr-4.9.1/contrib/extraction/lib/xercesImpl-2.9.1.jar' to classloader
+INFO  - 2016-03-19 18:26:42.783; org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/User/Dropbox/Master/Project/Wiki-Math-Recommender/solr-4.9.1/contrib/extraction/lib/tika-core-1.5.jar' to classloader
+INFO  - 2016-03-19 18:26:42.797; org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/User/Dropbox/Master/Project/Wiki-Math-Recommender/solr-4.9.1/contrib/extraction/lib/xmlbeans-2.6.0.jar' to classloader
+INFO  - 2016-03-19 18:26:42.801; org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/User/Dropbox/Master/Project/Wiki-Math-Recommender/solr-4.9.1/contrib/extraction/lib/tika-parsers-1.5.jar' to classloader
+INFO  - 2016-03-19 18:26:42.806; org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/User/Dropbox/Master/Project/Wiki-Math-Recommender/solr-4.9.1/contrib/extraction/lib/xmpcore-5.1.2.jar' to classloader
+INFO  - 2016-03-19 18:26:42.823; org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/User/Dropbox/Master/Project/Wiki-Math-Recommender/solr-4.9.1/contrib/extraction/lib/tika-xmp-1.5.jar' to classloader
+INFO  - 2016-03-19 18:26:42.828; org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/User/Dropbox/Master/Project/Wiki-Math-Recommender/solr-4.9.1/contrib/extraction/lib/xz-1.4.jar' to classloader
+INFO  - 2016-03-19 18:26:42.832; org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/User/Dropbox/Master/Project/Wiki-Math-Recommender/solr-4.9.1/contrib/extraction/lib/vorbis-java-core-0.1.jar' to classloader
+INFO  - 2016-03-19 18:26:42.848; org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/User/Dropbox/Master/Project/Wiki-Math-Recommender/solr-4.9.1/dist/solr-cell-4.9.1.jar' to classloader
+INFO  - 2016-03-19 18:26:42.852; org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/User/Dropbox/Master/Project/Wiki-Math-Recommender/solr-4.9.1/contrib/extraction/lib/vorbis-java-tika-0.1.jar' to classloader
+INFO  - 2016-03-19 18:26:42.857; org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/User/Dropbox/Master/Project/Wiki-Math-Recommender/solr-4.9.1/contrib/clustering/lib/attributes-binder-1.2.1.jar' to classloader
+INFO  - 2016-03-19 18:26:42.872; org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/User/Dropbox/Master/Project/Wiki-Math-Recommender/solr-4.9.1/contrib/extraction/lib/xercesImpl-2.9.1.jar' to classloader
+INFO  - 2016-03-19 18:26:42.877; org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/User/Dropbox/Master/Project/Wiki-Math-Recommender/solr-4.9.1/contrib/clustering/lib/carrot2-mini-3.9.0.jar' to classloader
+INFO  - 2016-03-19 18:26:42.882; org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/User/Dropbox/Master/Project/Wiki-Math-Recommender/solr-4.9.1/contrib/extraction/lib/xmlbeans-2.6.0.jar' to classloader
+INFO  - 2016-03-19 18:26:42.898; org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/User/Dropbox/Master/Project/Wiki-Math-Recommender/solr-4.9.1/contrib/clustering/lib/hppc-0.5.2.jar' to classloader
+INFO  - 2016-03-19 18:26:42.902; org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/User/Dropbox/Master/Project/Wiki-Math-Recommender/solr-4.9.1/contrib/extraction/lib/xmpcore-5.1.2.jar' to classloader
+INFO  - 2016-03-19 18:26:42.907; org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/User/Dropbox/Master/Project/Wiki-Math-Recommender/solr-4.9.1/contrib/clustering/lib/jackson-core-asl-1.9.13.jar' to classloader
+INFO  - 2016-03-19 18:26:42.923; org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/User/Dropbox/Master/Project/Wiki-Math-Recommender/solr-4.9.1/contrib/extraction/lib/xz-1.4.jar' to classloader
+INFO  - 2016-03-19 18:26:42.928; org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/User/Dropbox/Master/Project/Wiki-Math-Recommender/solr-4.9.1/contrib/clustering/lib/jackson-mapper-asl-1.9.13.jar' to classloader
+INFO  - 2016-03-19 18:26:42.933; org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/User/Dropbox/Master/Project/Wiki-Math-Recommender/solr-4.9.1/dist/solr-cell-4.9.1.jar' to classloader
+INFO  - 2016-03-19 18:26:42.948; org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/User/Dropbox/Master/Project/Wiki-Math-Recommender/solr-4.9.1/contrib/clustering/lib/mahout-collections-1.0.jar' to classloader
+INFO  - 2016-03-19 18:26:42.953; org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/User/Dropbox/Master/Project/Wiki-Math-Recommender/solr-4.9.1/contrib/clustering/lib/attributes-binder-1.2.1.jar' to classloader
+INFO  - 2016-03-19 18:26:42.958; org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/User/Dropbox/Master/Project/Wiki-Math-Recommender/solr-4.9.1/contrib/clustering/lib/mahout-math-0.6.jar' to classloader
+INFO  - 2016-03-19 18:26:42.976; org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/User/Dropbox/Master/Project/Wiki-Math-Recommender/solr-4.9.1/contrib/clustering/lib/simple-xml-2.7.jar' to classloader
+INFO  - 2016-03-19 18:26:42.972; org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/User/Dropbox/Master/Project/Wiki-Math-Recommender/solr-4.9.1/contrib/clustering/lib/carrot2-mini-3.9.0.jar' to classloader
+INFO  - 2016-03-19 18:26:42.982; org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/User/Dropbox/Master/Project/Wiki-Math-Recommender/solr-4.9.1/dist/solr-clustering-4.9.1.jar' to classloader
+INFO  - 2016-03-19 18:26:42.997; org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/User/Dropbox/Master/Project/Wiki-Math-Recommender/solr-4.9.1/contrib/clustering/lib/hppc-0.5.2.jar' to classloader
+INFO  - 2016-03-19 18:26:43.002; org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/User/Dropbox/Master/Project/Wiki-Math-Recommender/solr-4.9.1/contrib/langid/lib/jsonic-1.2.7.jar' to classloader
+INFO  - 2016-03-19 18:26:43.006; org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/User/Dropbox/Master/Project/Wiki-Math-Recommender/solr-4.9.1/contrib/clustering/lib/jackson-core-asl-1.9.13.jar' to classloader
+INFO  - 2016-03-19 18:26:43.022; org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/User/Dropbox/Master/Project/Wiki-Math-Recommender/solr-4.9.1/contrib/langid/lib/langdetect-1.1-20120112.jar' to classloader
+INFO  - 2016-03-19 18:26:43.026; org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/User/Dropbox/Master/Project/Wiki-Math-Recommender/solr-4.9.1/contrib/clustering/lib/jackson-mapper-asl-1.9.13.jar' to classloader
+INFO  - 2016-03-19 18:26:43.033; org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/User/Dropbox/Master/Project/Wiki-Math-Recommender/solr-4.9.1/dist/solr-langid-4.9.1.jar' to classloader
+INFO  - 2016-03-19 18:26:43.049; org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/User/Dropbox/Master/Project/Wiki-Math-Recommender/solr-4.9.1/contrib/clustering/lib/mahout-collections-1.0.jar' to classloader
+INFO  - 2016-03-19 18:26:43.054; org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/User/Dropbox/Master/Project/Wiki-Math-Recommender/solr-4.9.1/contrib/velocity/lib/commons-beanutils-1.8.3.jar' to classloader
+INFO  - 2016-03-19 18:26:43.058; org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/User/Dropbox/Master/Project/Wiki-Math-Recommender/solr-4.9.1/contrib/clustering/lib/mahout-math-0.6.jar' to classloader
+INFO  - 2016-03-19 18:26:43.073; org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/User/Dropbox/Master/Project/Wiki-Math-Recommender/solr-4.9.1/contrib/velocity/lib/commons-collections-3.2.1.jar' to classloader
+INFO  - 2016-03-19 18:26:43.078; org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/User/Dropbox/Master/Project/Wiki-Math-Recommender/solr-4.9.1/contrib/clustering/lib/simple-xml-2.7.jar' to classloader
+INFO  - 2016-03-19 18:26:43.083; org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/User/Dropbox/Master/Project/Wiki-Math-Recommender/solr-4.9.1/contrib/velocity/lib/velocity-1.7.jar' to classloader
+INFO  - 2016-03-19 18:26:43.098; org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/User/Dropbox/Master/Project/Wiki-Math-Recommender/solr-4.9.1/dist/solr-clustering-4.9.1.jar' to classloader
+INFO  - 2016-03-19 18:26:43.102; org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/User/Dropbox/Master/Project/Wiki-Math-Recommender/solr-4.9.1/contrib/velocity/lib/velocity-tools-2.0.jar' to classloader
+INFO  - 2016-03-19 18:26:43.107; org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/User/Dropbox/Master/Project/Wiki-Math-Recommender/solr-4.9.1/contrib/langid/lib/jsonic-1.2.7.jar' to classloader
+INFO  - 2016-03-19 18:26:43.126; org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/User/Dropbox/Master/Project/Wiki-Math-Recommender/solr-4.9.1/contrib/langid/lib/langdetect-1.1-20120112.jar' to classloader
+INFO  - 2016-03-19 18:26:43.122; org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/User/Dropbox/Master/Project/Wiki-Math-Recommender/solr-4.9.1/dist/solr-velocity-4.9.1.jar' to classloader
+INFO  - 2016-03-19 18:26:43.131; org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/User/Dropbox/Master/Project/Wiki-Math-Recommender/solr-4.9.1/dist/solr-langid-4.9.1.jar' to classloader
+INFO  - 2016-03-19 18:26:43.152; org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/User/Dropbox/Master/Project/Wiki-Math-Recommender/solr-4.9.1/contrib/velocity/lib/commons-beanutils-1.8.3.jar' to classloader
+INFO  - 2016-03-19 18:26:43.159; org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/User/Dropbox/Master/Project/Wiki-Math-Recommender/solr-4.9.1/contrib/velocity/lib/commons-collections-3.2.1.jar' to classloader
+INFO  - 2016-03-19 18:26:43.178; org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/User/Dropbox/Master/Project/Wiki-Math-Recommender/solr-4.9.1/contrib/velocity/lib/velocity-1.7.jar' to classloader
+INFO  - 2016-03-19 18:26:43.183; org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/User/Dropbox/Master/Project/Wiki-Math-Recommender/solr-4.9.1/contrib/velocity/lib/velocity-tools-2.0.jar' to classloader
+INFO  - 2016-03-19 18:26:43.190; org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/User/Dropbox/Master/Project/Wiki-Math-Recommender/solr-4.9.1/dist/solr-velocity-4.9.1.jar' to classloader
+INFO  - 2016-03-19 18:26:43.571; org.apache.solr.update.SolrIndexConfig; IndexWriter infoStream solr logging is enabled
+INFO  - 2016-03-19 18:26:43.583; org.apache.solr.core.SolrConfig; Using Lucene MatchVersion: LUCENE_4_9
+INFO  - 2016-03-19 18:26:43.660; org.apache.solr.update.SolrIndexConfig; IndexWriter infoStream solr logging is enabled
+INFO  - 2016-03-19 18:26:43.688; org.apache.solr.core.SolrConfig; Using Lucene MatchVersion: LUCENE_4_9
+INFO  - 2016-03-19 18:26:43.736; org.apache.solr.core.SolrConfig; Loaded SolrConfig: solrconfig.xml
+INFO  - 2016-03-19 18:26:43.764; org.apache.solr.schema.IndexSchema; Reading Solr Schema from schema.xml
+INFO  - 2016-03-19 18:26:43.764; org.apache.solr.core.SolrConfig; Loaded SolrConfig: solrconfig.xml
+INFO  - 2016-03-19 18:26:43.812; org.apache.solr.schema.IndexSchema; [collection1] Schema name=example
+INFO  - 2016-03-19 18:26:43.831; org.apache.solr.schema.IndexSchema; Reading Solr Schema from schema.xml
+INFO  - 2016-03-19 18:26:43.865; org.apache.solr.schema.IndexSchema; [wiki1] Schema name=example
+INFO  - 2016-03-19 18:26:44.280; org.apache.solr.schema.IndexSchema; unique key field: id
+INFO  - 2016-03-19 18:26:44.280; org.apache.solr.schema.IndexSchema; unique key field: id
+INFO  - 2016-03-19 18:26:44.297; org.apache.solr.rest.RestManager$Registry; Registered ManagedResource impl org.apache.solr.rest.schema.analysis.ManagedWordSetResource for path /schema/analysis/stopwords/english
+INFO  - 2016-03-19 18:26:44.297; org.apache.solr.rest.RestManager$Registry; Registered ManagedResource impl org.apache.solr.rest.schema.analysis.ManagedWordSetResource for path /schema/analysis/stopwords/english
+INFO  - 2016-03-19 18:26:44.303; org.apache.solr.rest.RestManager$Registry; Registered ManagedResource impl org.apache.solr.rest.schema.analysis.ManagedSynonymFilterFactory$SynonymManager for path /schema/analysis/synonyms/english
+INFO  - 2016-03-19 18:26:44.307; org.apache.solr.rest.RestManager$Registry; Registered ManagedResource impl org.apache.solr.rest.schema.analysis.ManagedSynonymFilterFactory$SynonymManager for path /schema/analysis/synonyms/english
+INFO  - 2016-03-19 18:26:44.396; org.apache.solr.schema.FileExchangeRateProvider; Reloading exchange rates from file currency.xml
+INFO  - 2016-03-19 18:26:44.399; org.apache.solr.schema.FileExchangeRateProvider; Reloading exchange rates from file currency.xml
+INFO  - 2016-03-19 18:26:44.411; org.apache.solr.schema.FileExchangeRateProvider; Reloading exchange rates from file currency.xml
+INFO  - 2016-03-19 18:26:44.412; org.apache.solr.schema.FileExchangeRateProvider; Reloading exchange rates from file currency.xml
+INFO  - 2016-03-19 18:26:44.734; org.apache.solr.core.CoreContainer; Creating SolrCore 'wiki1' using configuration from instancedir C:\Users\User\Dropbox\Master\Project\Wiki-Math-Recommender\solr-4.9.1\example\solr\wiki1\
+INFO  - 2016-03-19 18:26:44.734; org.apache.solr.core.CoreContainer; Creating SolrCore 'collection1' using configuration from instancedir C:\Users\User\Dropbox\Master\Project\Wiki-Math-Recommender\solr-4.9.1\example\solr\collection1\
+INFO  - 2016-03-19 18:26:44.764; org.apache.solr.core.SolrCore; solr.NRTCachingDirectoryFactory
+INFO  - 2016-03-19 18:26:44.764; org.apache.solr.core.SolrCore; solr.NRTCachingDirectoryFactory
+INFO  - 2016-03-19 18:26:44.781; org.apache.solr.core.SolrCore; [collection1] Opening new SolrCore at C:\Users\User\Dropbox\Master\Project\Wiki-Math-Recommender\solr-4.9.1\example\solr\collection1\, dataDir=C:\Users\User\Dropbox\Master\Project\Wiki-Math-Recommender\solr-4.9.1\example\solr\collection1\data\
+INFO  - 2016-03-19 18:26:44.781; org.apache.solr.core.SolrCore; [wiki1] Opening new SolrCore at C:\Users\User\Dropbox\Master\Project\Wiki-Math-Recommender\solr-4.9.1\example\solr\wiki1\, dataDir=C:\Users\User\Dropbox\Master\Project\Wiki-Math-Recommender\solr-4.9.1\example\solr\wiki1\data\
+INFO  - 2016-03-19 18:26:44.791; org.apache.solr.core.JmxMonitoredMap; No JMX servers found, not exposing Solr information with JMX.
+INFO  - 2016-03-19 18:26:44.797; org.apache.solr.core.JmxMonitoredMap; No JMX servers found, not exposing Solr information with JMX.
+INFO  - 2016-03-19 18:26:44.816; org.apache.solr.core.SolrCore; [collection1] Added SolrEventListener for newSearcher: org.apache.solr.core.QuerySenderListener{queries=[]}
+INFO  - 2016-03-19 18:26:44.822; org.apache.solr.core.SolrCore; [collection1] Added SolrEventListener for firstSearcher: org.apache.solr.core.QuerySenderListener{queries=[{q=static firstSearcher warming in solrconfig.xml}]}
+INFO  - 2016-03-19 18:26:44.816; org.apache.solr.core.SolrCore; [wiki1] Added SolrEventListener for newSearcher: org.apache.solr.core.QuerySenderListener{queries=[]}
+INFO  - 2016-03-19 18:26:44.853; org.apache.solr.core.SolrCore; [wiki1] Added SolrEventListener for firstSearcher: org.apache.solr.core.QuerySenderListener{queries=[{q=static firstSearcher warming in solrconfig.xml}]}
+INFO  - 2016-03-19 18:26:44.861; org.apache.solr.core.CachingDirectoryFactory; return new directory for C:\Users\User\Dropbox\Master\Project\Wiki-Math-Recommender\solr-4.9.1\example\solr\collection1\data
+INFO  - 2016-03-19 18:26:44.861; org.apache.solr.core.CachingDirectoryFactory; return new directory for C:\Users\User\Dropbox\Master\Project\Wiki-Math-Recommender\solr-4.9.1\example\solr\wiki1\data
+INFO  - 2016-03-19 18:26:44.875; org.apache.solr.core.SolrCore; New index directory detected: old=null new=C:\Users\User\Dropbox\Master\Project\Wiki-Math-Recommender\solr-4.9.1\example\solr\collection1\data\index/
+INFO  - 2016-03-19 18:26:44.886; org.apache.solr.core.CachingDirectoryFactory; return new directory for C:\Users\User\Dropbox\Master\Project\Wiki-Math-Recommender\solr-4.9.1\example\solr\collection1\data\index
+INFO  - 2016-03-19 18:26:44.879; org.apache.solr.core.SolrCore; New index directory detected: old=null new=C:\Users\User\Dropbox\Master\Project\Wiki-Math-Recommender\solr-4.9.1\example\solr\wiki1\data\index/
+INFO  - 2016-03-19 18:26:44.904; org.apache.solr.core.CachingDirectoryFactory; return new directory for C:\Users\User\Dropbox\Master\Project\Wiki-Math-Recommender\solr-4.9.1\example\solr\wiki1\data\index
+INFO  - 2016-03-19 18:26:44.921; org.apache.solr.core.SolrCore; created json: solr.JSONResponseWriter
+INFO  - 2016-03-19 18:26:44.924; org.apache.solr.core.SolrCore; adding lazy queryResponseWriter: solr.VelocityResponseWriter
+INFO  - 2016-03-19 18:26:44.923; org.apache.solr.core.SolrCore; created json: solr.JSONResponseWriter
+INFO  - 2016-03-19 18:26:44.932; org.apache.solr.core.SolrCore; adding lazy queryResponseWriter: solr.VelocityResponseWriter
+INFO  - 2016-03-19 18:26:44.929; org.apache.solr.core.SolrCore; created velocity: solr.VelocityResponseWriter
+INFO  - 2016-03-19 18:26:44.939; org.apache.solr.core.SolrCore; created velocity: solr.VelocityResponseWriter
+INFO  - 2016-03-19 18:26:44.947; org.apache.solr.core.SolrCore; created xslt: solr.XSLTResponseWriter
+INFO  - 2016-03-19 18:26:44.951; org.apache.solr.response.XSLTResponseWriter; xsltCacheLifetimeSeconds=5
+INFO  - 2016-03-19 18:26:44.949; org.apache.solr.core.SolrCore; created xslt: solr.XSLTResponseWriter
+INFO  - 2016-03-19 18:26:44.961; org.apache.solr.response.XSLTResponseWriter; xsltCacheLifetimeSeconds=5
+INFO  - 2016-03-19 18:26:45.060; org.apache.solr.core.SolrCore; no updateRequestProcessorChain defined as default, creating implicit default
+INFO  - 2016-03-19 18:26:45.060; org.apache.solr.core.SolrCore; no updateRequestProcessorChain defined as default, creating implicit default
+INFO  - 2016-03-19 18:26:45.071; org.apache.solr.core.RequestHandlers; created /dataimport: org.apache.solr.handler.dataimport.DataImportHandler
+INFO  - 2016-03-19 18:26:45.077; org.apache.solr.core.RequestHandlers; created /select: solr.SearchHandler
+INFO  - 2016-03-19 18:26:45.081; org.apache.solr.core.RequestHandlers; created /query: solr.SearchHandler
+INFO  - 2016-03-19 18:26:45.086; org.apache.solr.core.RequestHandlers; created /get: solr.RealTimeGetHandler
+INFO  - 2016-03-19 18:26:45.089; org.apache.solr.core.RequestHandlers; created /browse: solr.SearchHandler
+INFO  - 2016-03-19 18:26:45.080; org.apache.solr.core.RequestHandlers; created /select: solr.SearchHandler
+INFO  - 2016-03-19 18:26:45.096; org.apache.solr.core.RequestHandlers; created /update: solr.UpdateRequestHandler
+INFO  - 2016-03-19 18:26:45.104; org.apache.solr.core.RequestHandlers; created /update/json: solr.UpdateRequestHandler
+INFO  - 2016-03-19 18:26:45.101; org.apache.solr.core.RequestHandlers; created /query: solr.SearchHandler
+INFO  - 2016-03-19 18:26:45.108; org.apache.solr.core.RequestHandlers; created /update/csv: solr.UpdateRequestHandler
+INFO  - 2016-03-19 18:26:45.116; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.extraction.ExtractingRequestHandler
+INFO  - 2016-03-19 18:26:45.120; org.apache.solr.core.RequestHandlers; created /update/extract: solr.extraction.ExtractingRequestHandler
+INFO  - 2016-03-19 18:26:45.113; org.apache.solr.core.RequestHandlers; created /get: solr.RealTimeGetHandler
+INFO  - 2016-03-19 18:26:45.127; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.FieldAnalysisRequestHandler
+INFO  - 2016-03-19 18:26:45.130; org.apache.solr.core.RequestHandlers; created /browse: solr.SearchHandler
+INFO  - 2016-03-19 18:26:45.136; org.apache.solr.core.RequestHandlers; created /analysis/field: solr.FieldAnalysisRequestHandler
+INFO  - 2016-03-19 18:26:45.139; org.apache.solr.core.RequestHandlers; created /update: solr.UpdateRequestHandler
+INFO  - 2016-03-19 18:26:45.144; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.DocumentAnalysisRequestHandler
+INFO  - 2016-03-19 18:26:45.147; org.apache.solr.core.RequestHandlers; created /update/json: solr.UpdateRequestHandler
+INFO  - 2016-03-19 18:26:45.160; org.apache.solr.core.RequestHandlers; created /update/csv: solr.UpdateRequestHandler
+INFO  - 2016-03-19 18:26:45.156; org.apache.solr.core.RequestHandlers; created /analysis/document: solr.DocumentAnalysisRequestHandler
+INFO  - 2016-03-19 18:26:45.164; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.extraction.ExtractingRequestHandler
+INFO  - 2016-03-19 18:26:45.171; org.apache.solr.core.RequestHandlers; created /admin/: solr.admin.AdminHandlers
+INFO  - 2016-03-19 18:26:45.173; org.apache.solr.core.RequestHandlers; created /update/extract: solr.extraction.ExtractingRequestHandler
+INFO  - 2016-03-19 18:26:45.180; org.apache.solr.core.RequestHandlers; created /admin/ping: solr.PingRequestHandler
+INFO  - 2016-03-19 18:26:45.189; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.FieldAnalysisRequestHandler
+INFO  - 2016-03-19 18:26:45.198; org.apache.solr.core.RequestHandlers; created /analysis/field: solr.FieldAnalysisRequestHandler
+INFO  - 2016-03-19 18:26:45.196; org.apache.solr.core.RequestHandlers; created /debug/dump: solr.DumpRequestHandler
+INFO  - 2016-03-19 18:26:45.202; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.DocumentAnalysisRequestHandler
+INFO  - 2016-03-19 18:26:45.212; org.apache.solr.core.RequestHandlers; created /analysis/document: solr.DocumentAnalysisRequestHandler
+INFO  - 2016-03-19 18:26:45.223; org.apache.solr.core.RequestHandlers; created /admin/: solr.admin.AdminHandlers
+INFO  - 2016-03-19 18:26:45.224; org.apache.solr.core.RequestHandlers; created /replication: solr.ReplicationHandler
+INFO  - 2016-03-19 18:26:45.230; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.SearchHandler
+INFO  - 2016-03-19 18:26:45.228; org.apache.solr.core.RequestHandlers; created /admin/ping: solr.PingRequestHandler
+INFO  - 2016-03-19 18:26:45.235; org.apache.solr.core.RequestHandlers; created /spell: solr.SearchHandler
+INFO  - 2016-03-19 18:26:45.240; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.SearchHandler
+INFO  - 2016-03-19 18:26:45.238; org.apache.solr.core.RequestHandlers; created /debug/dump: solr.DumpRequestHandler
+INFO  - 2016-03-19 18:26:45.245; org.apache.solr.core.RequestHandlers; created /suggest: solr.SearchHandler
+INFO  - 2016-03-19 18:26:45.257; org.apache.solr.core.RequestHandlers; created /replication: solr.ReplicationHandler
+INFO  - 2016-03-19 18:26:45.261; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.SearchHandler
+INFO  - 2016-03-19 18:26:45.265; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.SearchHandler
+INFO  - 2016-03-19 18:26:45.272; org.apache.solr.core.RequestHandlers; created /tvrh: solr.SearchHandler
+INFO  - 2016-03-19 18:26:45.278; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.SearchHandler
+INFO  - 2016-03-19 18:26:45.282; org.apache.solr.core.RequestHandlers; created /terms: solr.SearchHandler
+INFO  - 2016-03-19 18:26:45.274; org.apache.solr.core.RequestHandlers; created /spell: solr.SearchHandler
+INFO  - 2016-03-19 18:26:45.289; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.SearchHandler
+INFO  - 2016-03-19 18:26:45.291; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.SearchHandler
+INFO  - 2016-03-19 18:26:45.295; org.apache.solr.core.RequestHandlers; created /elevate: solr.SearchHandler
+INFO  - 2016-03-19 18:26:45.299; org.apache.solr.core.RequestHandlers; created /suggest: solr.SearchHandler
+INFO  - 2016-03-19 18:26:45.310; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.SearchHandler
+INFO  - 2016-03-19 18:26:45.315; org.apache.solr.core.RequestHandlers; created /tvrh: solr.SearchHandler
+INFO  - 2016-03-19 18:26:45.320; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.SearchHandler
+INFO  - 2016-03-19 18:26:45.328; org.apache.solr.core.RequestHandlers; created /terms: solr.SearchHandler
+INFO  - 2016-03-19 18:26:45.329; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2016-03-19 18:26:45.332; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.SearchHandler
+INFO  - 2016-03-19 18:26:45.339; org.apache.solr.core.RequestHandlers; created /elevate: solr.SearchHandler
+INFO  - 2016-03-19 18:26:45.338; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2016-03-19 18:26:45.346; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2016-03-19 18:26:45.357; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2016-03-19 18:26:45.362; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2016-03-19 18:26:45.372; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2016-03-19 18:26:45.406; org.apache.solr.update.CommitTracker; Hard AutoCommit: if uncommited for 15000ms; 
+INFO  - 2016-03-19 18:26:45.410; org.apache.solr.update.CommitTracker; Soft AutoCommit: disabled
+INFO  - 2016-03-19 18:26:45.411; org.apache.solr.update.CommitTracker; Hard AutoCommit: if uncommited for 15000ms; 
+INFO  - 2016-03-19 18:26:45.420; org.apache.solr.update.CommitTracker; Soft AutoCommit: disabled
+INFO  - 2016-03-19 18:26:45.499; org.apache.solr.core.SolrDeletionPolicy; SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\Users\User\Dropbox\Master\Project\Wiki-Math-Recommender\solr-4.9.1\example\solr\collection1\data\index lockFactory=NativeFSLockFactory@C:\Users\User\Dropbox\Master\Project\Wiki-Math-Recommender\solr-4.9.1\example\solr\collection1\data\index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_3,generation=3}
+INFO  - 2016-03-19 18:26:45.516; org.apache.solr.core.SolrDeletionPolicy; SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\Users\User\Dropbox\Master\Project\Wiki-Math-Recommender\solr-4.9.1\example\solr\wiki1\data\index lockFactory=NativeFSLockFactory@C:\Users\User\Dropbox\Master\Project\Wiki-Math-Recommender\solr-4.9.1\example\solr\wiki1\data\index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_9,generation=9}
+INFO  - 2016-03-19 18:26:45.517; org.apache.solr.core.SolrDeletionPolicy; newest commit generation = 3
+INFO  - 2016-03-19 18:26:45.532; org.apache.solr.core.SolrDeletionPolicy; newest commit generation = 9
+INFO  - 2016-03-19 18:26:45.643; org.apache.solr.search.SolrIndexSearcher; Opening Searcher@7f9c84ad[collection1] main
+INFO  - 2016-03-19 18:26:45.659; org.apache.solr.rest.ManagedResourceStorage$FileStorageIO; File-based storage initialized to use dir: C:\Users\User\Dropbox\Master\Project\Wiki-Math-Recommender\solr-4.9.1\example\solr\collection1\conf
+INFO  - 2016-03-19 18:26:45.669; org.apache.solr.rest.RestManager; Initializing RestManager with initArgs: {storageDir=C:\Users\User\Dropbox\Master\Project\Wiki-Math-Recommender\solr-4.9.1\example\solr\collection1\conf\}
+INFO  - 2016-03-19 18:26:45.681; org.apache.solr.rest.ManagedResourceStorage; Reading _rest_managed.json using file:dir=C:\Users\User\Dropbox\Master\Project\Wiki-Math-Recommender\solr-4.9.1\example\solr\collection1\conf
+WARN  - 2016-03-19 18:26:45.691; org.apache.solr.rest.ManagedResource; No stored data found for /rest/managed
+WARN  - 2016-03-19 18:26:45.696; org.apache.solr.rest.ManagedResource; No registered observers for /rest/managed
+INFO  - 2016-03-19 18:26:45.701; org.apache.solr.rest.RestManager; Initializing 2 registered ManagedResources
+INFO  - 2016-03-19 18:26:45.705; org.apache.solr.rest.ManagedResourceStorage; Reading _schema_analysis_stopwords_english.json using file:dir=C:\Users\User\Dropbox\Master\Project\Wiki-Math-Recommender\solr-4.9.1\example\solr\collection1\conf
+INFO  - 2016-03-19 18:26:45.728; org.apache.solr.rest.ManagedResourceStorage; Loaded LinkedHashMap at path _schema_analysis_stopwords_english.json using file:dir=C:\Users\User\Dropbox\Master\Project\Wiki-Math-Recommender\solr-4.9.1\example\solr\collection1\conf
+INFO  - 2016-03-19 18:26:45.736; org.apache.solr.rest.ManagedResource; Loaded initArgs {ignoreCase=true} for /schema/analysis/stopwords/english
+INFO  - 2016-03-19 18:26:45.745; org.apache.solr.rest.schema.analysis.ManagedWordSetResource; Loaded 35 words for /schema/analysis/stopwords/english
+INFO  - 2016-03-19 18:26:45.750; org.apache.solr.rest.ManagedResource; Notified 1 observers of /schema/analysis/stopwords/english
+INFO  - 2016-03-19 18:26:45.755; org.apache.solr.rest.ManagedResourceStorage; Reading _schema_analysis_synonyms_english.json using file:dir=C:\Users\User\Dropbox\Master\Project\Wiki-Math-Recommender\solr-4.9.1\example\solr\collection1\conf
+INFO  - 2016-03-19 18:26:45.769; org.apache.solr.rest.ManagedResourceStorage; Loaded LinkedHashMap at path _schema_analysis_synonyms_english.json using file:dir=C:\Users\User\Dropbox\Master\Project\Wiki-Math-Recommender\solr-4.9.1\example\solr\collection1\conf
+INFO  - 2016-03-19 18:26:45.779; org.apache.solr.rest.ManagedResource; Loaded initArgs {ignoreCase=true,format=solr} for /schema/analysis/synonyms/english
+INFO  - 2016-03-19 18:26:45.788; org.apache.solr.rest.schema.analysis.ManagedSynonymFilterFactory$SynonymManager; Loaded 3 synonym mappings for /schema/analysis/synonyms/english
+INFO  - 2016-03-19 18:26:45.797; org.apache.solr.rest.ManagedResource; Notified 1 observers of /schema/analysis/synonyms/english
+INFO  - 2016-03-19 18:26:45.804; org.apache.solr.handler.component.SpellCheckComponent; Initializing spell checkers
+INFO  - 2016-03-19 18:26:45.821; org.apache.solr.spelling.DirectSolrSpellChecker; init: {name=default,field=text,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+INFO  - 2016-03-19 18:26:45.839; org.apache.solr.handler.component.SpellCheckComponent; No queryConverter defined, using default converter
+INFO  - 2016-03-19 18:26:45.846; org.apache.solr.handler.component.SuggestComponent; Initializing SuggestComponent
+INFO  - 2016-03-19 18:26:45.856; org.apache.solr.spelling.suggest.SolrSuggester; init: {name=mySuggester,lookupImpl=FuzzyLookupFactory,dictionaryImpl=DocumentDictionaryFactory,field=cat,weightField=price,suggestAnalyzerFieldType=string}
+INFO  - 2016-03-19 18:26:45.881; org.apache.solr.spelling.suggest.SolrSuggester; Dictionary loaded with params: {name=mySuggester,lookupImpl=FuzzyLookupFactory,dictionaryImpl=DocumentDictionaryFactory,field=cat,weightField=price,suggestAnalyzerFieldType=string}
+INFO  - 2016-03-19 18:26:45.893; org.apache.solr.handler.component.QueryElevationComponent; Loading QueryElevation from: C:\Users\User\Dropbox\Master\Project\Wiki-Math-Recommender\solr-4.9.1\example\solr\collection1\conf\elevate.xml
+INFO  - 2016-03-19 18:26:45.930; org.apache.solr.search.SolrIndexSearcher; Opening Searcher@9e41711[wiki1] main
+INFO  - 2016-03-19 18:26:45.988; org.apache.solr.rest.ManagedResourceStorage$FileStorageIO; File-based storage initialized to use dir: C:\Users\User\Dropbox\Master\Project\Wiki-Math-Recommender\solr-4.9.1\example\solr\wiki1\conf
+INFO  - 2016-03-19 18:26:46.019; org.apache.solr.rest.RestManager; Initializing RestManager with initArgs: {storageDir=C:\Users\User\Dropbox\Master\Project\Wiki-Math-Recommender\solr-4.9.1\example\solr\wiki1\conf\}
+INFO  - 2016-03-19 18:26:46.035; org.apache.solr.rest.ManagedResourceStorage; Reading _rest_managed.json using file:dir=C:\Users\User\Dropbox\Master\Project\Wiki-Math-Recommender\solr-4.9.1\example\solr\wiki1\conf
+WARN  - 2016-03-19 18:26:46.047; org.apache.solr.rest.ManagedResource; No stored data found for /rest/managed
+WARN  - 2016-03-19 18:26:46.067; org.apache.solr.rest.ManagedResource; No registered observers for /rest/managed
+INFO  - 2016-03-19 18:26:46.072; org.apache.solr.rest.RestManager; Initializing 2 registered ManagedResources
+INFO  - 2016-03-19 18:26:46.079; org.apache.solr.rest.ManagedResourceStorage; Reading _schema_analysis_stopwords_english.json using file:dir=C:\Users\User\Dropbox\Master\Project\Wiki-Math-Recommender\solr-4.9.1\example\solr\wiki1\conf
+INFO  - 2016-03-19 18:26:46.107; org.apache.solr.rest.ManagedResourceStorage; Loaded LinkedHashMap at path _schema_analysis_stopwords_english.json using file:dir=C:\Users\User\Dropbox\Master\Project\Wiki-Math-Recommender\solr-4.9.1\example\solr\wiki1\conf
+INFO  - 2016-03-19 18:26:46.121; org.apache.solr.rest.ManagedResource; Loaded initArgs {ignoreCase=true} for /schema/analysis/stopwords/english
+INFO  - 2016-03-19 18:26:46.147; org.apache.solr.rest.schema.analysis.ManagedWordSetResource; Loaded 35 words for /schema/analysis/stopwords/english
+INFO  - 2016-03-19 18:26:46.156; org.apache.solr.rest.ManagedResource; Notified 1 observers of /schema/analysis/stopwords/english
+INFO  - 2016-03-19 18:26:46.163; org.apache.solr.rest.ManagedResourceStorage; Reading _schema_analysis_synonyms_english.json using file:dir=C:\Users\User\Dropbox\Master\Project\Wiki-Math-Recommender\solr-4.9.1\example\solr\wiki1\conf
+INFO  - 2016-03-19 18:26:46.188; org.apache.solr.rest.ManagedResourceStorage; Loaded LinkedHashMap at path _schema_analysis_synonyms_english.json using file:dir=C:\Users\User\Dropbox\Master\Project\Wiki-Math-Recommender\solr-4.9.1\example\solr\wiki1\conf
+INFO  - 2016-03-19 18:26:46.203; org.apache.solr.rest.ManagedResource; Loaded initArgs {ignoreCase=true,format=solr} for /schema/analysis/synonyms/english
+INFO  - 2016-03-19 18:26:46.218; org.apache.solr.rest.schema.analysis.ManagedSynonymFilterFactory$SynonymManager; Loaded 3 synonym mappings for /schema/analysis/synonyms/english
+INFO  - 2016-03-19 18:26:46.223; org.apache.solr.rest.ManagedResource; Notified 1 observers of /schema/analysis/synonyms/english
+INFO  - 2016-03-19 18:26:46.231; org.apache.solr.handler.component.SpellCheckComponent; Initializing spell checkers
+INFO  - 2016-03-19 18:26:46.241; org.apache.solr.spelling.DirectSolrSpellChecker; init: {name=default,field=text,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+INFO  - 2016-03-19 18:26:46.254; org.apache.solr.handler.component.SpellCheckComponent; No queryConverter defined, using default converter
+INFO  - 2016-03-19 18:26:46.261; org.apache.solr.handler.component.SuggestComponent; Initializing SuggestComponent
+INFO  - 2016-03-19 18:26:46.273; org.apache.solr.spelling.suggest.SolrSuggester; init: {name=mySuggester,lookupImpl=FuzzyLookupFactory,dictionaryImpl=DocumentDictionaryFactory,field=cat,weightField=price,suggestAnalyzerFieldType=string}
+INFO  - 2016-03-19 18:26:46.283; org.apache.solr.spelling.suggest.SolrSuggester; Dictionary loaded with params: {name=mySuggester,lookupImpl=FuzzyLookupFactory,dictionaryImpl=DocumentDictionaryFactory,field=cat,weightField=price,suggestAnalyzerFieldType=string}
+INFO  - 2016-03-19 18:26:46.293; org.apache.solr.handler.component.QueryElevationComponent; Loading QueryElevation from: C:\Users\User\Dropbox\Master\Project\Wiki-Math-Recommender\solr-4.9.1\example\solr\wiki1\conf\elevate.xml
+INFO  - 2016-03-19 18:26:50.520; org.apache.solr.handler.ReplicationHandler; Commits will be reserved for  10000
+INFO  - 2016-03-19 18:26:50.529; org.apache.solr.core.QuerySenderListener; QuerySenderListener sending requests to Searcher@7f9c84ad[collection1] main{StandardDirectoryReader(segments_3:5:nrt _0(4.9):C3 _1(4.9):C1)}
+INFO  - 2016-03-19 18:26:50.531; org.apache.solr.core.CoreContainer; registering core: collection1
+INFO  - 2016-03-19 18:26:50.587; org.apache.solr.core.SolrCore; [collection1] webapp=null path=null params={q=static+firstSearcher+warming+in+solrconfig.xml&distrib=false&event=firstSearcher} hits=0 status=0 QTime=44 
+INFO  - 2016-03-19 18:26:50.592; org.apache.solr.core.QuerySenderListener; QuerySenderListener done.
+INFO  - 2016-03-19 18:26:50.595; org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener; Loading spell index for spellchecker: default
+INFO  - 2016-03-19 18:26:50.599; org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener; Loading spell index for spellchecker: wordbreak
+INFO  - 2016-03-19 18:26:50.602; org.apache.solr.handler.component.SuggestComponent$SuggesterListener; Loading suggester index for: mySuggester
+INFO  - 2016-03-19 18:26:50.604; org.apache.solr.spelling.suggest.SolrSuggester; reload()
+INFO  - 2016-03-19 18:26:50.606; org.apache.solr.spelling.suggest.SolrSuggester; build()
+INFO  - 2016-03-19 18:26:50.641; org.apache.solr.core.SolrCore; [collection1] Registered new searcher Searcher@7f9c84ad[collection1] main{StandardDirectoryReader(segments_3:5:nrt _0(4.9):C3 _1(4.9):C1)}
+INFO  - 2016-03-19 18:26:50.830; org.apache.solr.handler.ReplicationHandler; Commits will be reserved for  10000
+INFO  - 2016-03-19 18:26:50.834; org.apache.solr.core.QuerySenderListener; QuerySenderListener sending requests to Searcher@9e41711[wiki1] main{StandardDirectoryReader(segments_9:37:nrt _9(4.9):C55204 _a(4.9):C1325 _b(4.9):C65655 _c(4.9):C12898 _d(4.9):C6996 _e(4.9):C62757 _f(4.9):C10540)}
+INFO  - 2016-03-19 18:26:50.834; org.apache.solr.core.CoreContainer; registering core: wiki1
+INFO  - 2016-03-19 18:26:50.856; org.apache.solr.servlet.SolrDispatchFilter; user.dir=C:\Users\User\Dropbox\Master\Project\Wiki-Math-Recommender\solr-4.9.1\example
+INFO  - 2016-03-19 18:26:50.866; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init() done
+INFO  - 2016-03-19 18:26:50.903; org.eclipse.jetty.server.AbstractConnector; Started SocketConnector@0.0.0.0:8983
+INFO  - 2016-03-19 18:26:50.929; org.apache.solr.core.SolrCore; [wiki1] webapp=null path=null params={q=static+firstSearcher+warming+in+solrconfig.xml&distrib=false&event=firstSearcher} hits=117268 status=0 QTime=84 
+INFO  - 2016-03-19 18:26:50.943; org.apache.solr.core.QuerySenderListener; QuerySenderListener done.
+INFO  - 2016-03-19 18:26:50.947; org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener; Loading spell index for spellchecker: default
+INFO  - 2016-03-19 18:26:50.951; org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener; Loading spell index for spellchecker: wordbreak
+INFO  - 2016-03-19 18:26:50.956; org.apache.solr.handler.component.SuggestComponent$SuggesterListener; Loading suggester index for: mySuggester
+INFO  - 2016-03-19 18:26:50.960; org.apache.solr.spelling.suggest.SolrSuggester; reload()
+INFO  - 2016-03-19 18:26:50.972; org.apache.solr.spelling.suggest.SolrSuggester; build()
+INFO  - 2016-03-19 18:26:52.584; org.apache.solr.core.SolrCore; [wiki1] Registered new searcher Searcher@9e41711[wiki1] main{StandardDirectoryReader(segments_9:37:nrt _9(4.9):C55204 _a(4.9):C1325 _b(4.9):C65655 _c(4.9):C12898 _d(4.9):C6996 _e(4.9):C62757 _f(4.9):C10540)}
+INFO  - 2016-03-19 18:27:31.075; org.apache.solr.core.SolrCore; [wiki1] webapp=/solr path=/select params={q="E%3Dmc^2"&wt=json} hits=7 status=0 QTime=42 
+INFO  - 2016-03-19 18:27:40.240; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1458408460224} status=0 QTime=2 
+INFO  - 2016-03-19 18:27:40.298; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/system params={wt=json&_=1458408460273} status=0 QTime=4 
+INFO  - 2016-03-19 18:27:42.606; org.apache.solr.core.SolrCore; [wiki1] webapp=/solr path=/admin/file/ params={file=admin-extra.menu-top.html&contentType=text/html;charset%3Dutf-8&_=1458408462590} status=0 QTime=1 
+INFO  - 2016-03-19 18:27:42.616; org.apache.solr.core.SolrCore; [wiki1] webapp=/solr path=/admin/file/ params={file=admin-extra.menu-bottom.html&contentType=text/html;charset%3Dutf-8&_=1458408462591} status=0 QTime=1 
+INFO  - 2016-03-19 18:27:42.729; org.apache.solr.core.SolrCore; [wiki1] webapp=/solr path=/admin/luke params={show=index&numTerms=0&wt=json&_=1458408462646} status=0 QTime=5 
+INFO  - 2016-03-19 18:27:42.746; org.apache.solr.core.SolrCore; [wiki1] webapp=/solr path=/replication params={wt=json&command=details&_=1458408462651} status=0 QTime=11 
+INFO  - 2016-03-19 18:27:42.753; org.apache.solr.core.SolrCore; [wiki1] webapp=/solr path=/admin/system params={wt=json&_=1458408462653} status=0 QTime=1 
+INFO  - 2016-03-19 18:27:42.772; org.apache.solr.core.SolrCore; [wiki1] webapp=/solr path=/admin/file/ params={file=admin-extra.html&_=1458408462655} status=0 QTime=1 
+INFO  - 2016-03-19 18:27:42.788; org.apache.solr.core.SolrCore; [wiki1] webapp=/solr path=/admin/ping params={action=status&wt=json&_=1458408462657} status=503 QTime=2 
+INFO  - 2016-03-19 18:28:07.183; org.apache.solr.core.SolrCore; [wiki1] webapp=/solr path=/select params={q="E%3Dmc^2"&wt=json} hits=7 status=0 QTime=2 
+INFO  - 2016-03-19 18:29:35.111; org.apache.solr.core.SolrCore; [wiki1] webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1458408575057} status=0 QTime=6 
+INFO  - 2016-03-19 18:29:47.937; org.apache.solr.core.SolrCore; [wiki1] webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1458408587923} status=0 QTime=4 
+INFO  - 2016-03-19 18:29:47.996; org.apache.solr.core.SolrCore; [wiki1] webapp=/solr path=/analysis/field params={analysis.fieldvalue=e%3Dmc^2&analysis.showmatch=true&analysis.fieldname=text&wt=json&analysis.query=e%3Dmc^2&_=1458408587970} status=0 QTime=16 
+INFO  - 2016-03-19 18:30:44.713; org.apache.solr.core.SolrCore; [wiki1] webapp=/solr path=/select params={q="a^2+b^2%3Dc^2"&wt=json} hits=2 status=0 QTime=56 
+INFO  - 2016-03-19 18:30:50.720; org.apache.solr.core.SolrCore; [wiki1] webapp=/solr path=/select params={q="\frac{d}{a}+%3D+\frac{a}{c}+\quad+\Rightarrow+\quad+d+%3D+\frac{a^2}{c}\quad+(1)"&wt=json} hits=1 status=0 QTime=27 
+INFO  - 2016-03-19 18:30:53.921; org.apache.solr.core.SolrCore; [wiki1] webapp=/solr path=/select params={q="\sqrt{3^2+4^2}%3D5."&wt=json} hits=1 status=0 QTime=29 
+INFO  - 2016-03-19 18:30:57.463; org.apache.solr.core.SolrCore; [wiki1] webapp=/solr path=/select params={q="3^2+4^2%3D5^2"&wt=json} hits=2 status=0 QTime=27 
+INFO  - 2016-03-19 18:31:44.296; org.apache.solr.core.SolrCore; [wiki1] webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1458408704279} status=0 QTime=5 
+INFO  - 2016-03-19 18:31:44.329; org.apache.solr.core.SolrCore; [wiki1] webapp=/solr path=/analysis/field params={analysis.fieldvalue=e%3Dmc^2&analysis.showmatch=true&analysis.fieldname=name&wt=json&analysis.query=e%3Dmc^2&_=1458408704315} status=0 QTime=2 
+INFO  - 2016-03-19 18:31:49.448; org.apache.solr.core.SolrCore; [wiki1] webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1458408709431} status=0 QTime=4 
+INFO  - 2016-03-19 18:31:49.487; org.apache.solr.core.SolrCore; [wiki1] webapp=/solr path=/analysis/field params={analysis.fieldvalue=e%3Dmc^2&analysis.showmatch=true&analysis.fieldname=_root_&wt=json&analysis.query=e%3Dmc^2&_=1458408709473} status=0 QTime=1 
+INFO  - 2016-03-19 18:32:08.701; org.apache.solr.core.SolrCore; [wiki1] webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1458408728685} status=0 QTime=3 
+INFO  - 2016-03-19 18:32:08.747; org.apache.solr.core.SolrCore; [wiki1] webapp=/solr path=/analysis/field params={analysis.fieldvalue=e%3Dmc^2&analysis.showmatch=true&analysis.fieldname=title&wt=json&analysis.query=e%3Dmc^2&_=1458408728730} status=0 QTime=3 
+INFO  - 2016-03-19 18:32:16.139; org.apache.solr.core.SolrCore; [wiki1] webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1458408736125} status=0 QTime=2 
+ERROR - 2016-03-19 18:32:16.172; org.apache.solr.common.SolrException; org.apache.solr.common.SolrException: Invalid Number: e=mc^2
+	at org.apache.solr.schema.TrieField.readableToIndexed(TrieField.java:406)
+	at org.apache.solr.schema.TrieField.readableToIndexed(TrieField.java:378)
+	at org.apache.solr.schema.TrieField.toInternal(TrieField.java:413)
+	at org.apache.solr.schema.FieldType$DefaultAnalyzer$1.incrementToken(FieldType.java:473)
+	at org.apache.solr.handler.AnalysisRequestHandlerBase.getQueryTokenSet(AnalysisRequestHandlerBase.java:153)
+	at org.apache.solr.handler.FieldAnalysisRequestHandler.analyzeValues(FieldAnalysisRequestHandler.java:219)
+	at org.apache.solr.handler.FieldAnalysisRequestHandler.handleAnalysisRequest(FieldAnalysisRequestHandler.java:187)
+	at org.apache.solr.handler.FieldAnalysisRequestHandler.doAnalysis(FieldAnalysisRequestHandler.java:102)
+	at org.apache.solr.handler.AnalysisRequestHandlerBase.handleRequestBody(AnalysisRequestHandlerBase.java:60)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:135)
+	at org.apache.solr.core.RequestHandlers$LazyRequestHandlerWrapper.handleRequest(RequestHandlers.java:241)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:1962)
+	at org.apache.solr.servlet.SolrDispatchFilter.execute(SolrDispatchFilter.java:777)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:418)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:207)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1419)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1075)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:384)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1009)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:368)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:942)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1004)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:640)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72)
+	at org.eclipse.jetty.server.bio.SocketConnector$ConnectorEndPoint.run(SocketConnector.java:264)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Unknown Source)
+
+INFO  - 2016-03-19 18:32:16.249; org.apache.solr.core.SolrCore; [wiki1] webapp=/solr path=/analysis/field params={analysis.fieldvalue=e%3Dmc^2&analysis.showmatch=true&wt=json&analysis.query=e%3Dmc^2&analysis.fieldtype=long&_=1458408736155} status=400 QTime=79 
+INFO  - 2016-03-19 18:32:21.663; org.apache.solr.core.SolrCore; [wiki1] webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1458408741653} status=0 QTime=2 
+INFO  - 2016-03-19 18:32:21.699; org.apache.solr.core.SolrCore; [wiki1] webapp=/solr path=/analysis/field params={analysis.fieldvalue=e%3Dmc^2&analysis.showmatch=true&wt=json&analysis.query=e%3Dmc^2&analysis.fieldtype=ignored&_=1458408741683} status=0 QTime=1 
+INFO  - 2016-03-19 18:32:25.904; org.apache.solr.core.SolrCore; [wiki1] webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1458408745891} status=0 QTime=1 
+INFO  - 2016-03-19 18:32:25.936; org.apache.solr.core.SolrCore; [wiki1] webapp=/solr path=/analysis/field params={analysis.fieldvalue=e%3Dmc^2&analysis.showmatch=true&wt=json&analysis.query=e%3Dmc^2&analysis.fieldtype=string&_=1458408745923} status=0 QTime=0 
+INFO  - 2016-03-19 18:32:29.952; org.apache.solr.core.SolrCore; [wiki1] webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1458408749938} status=0 QTime=2 
+INFO  - 2016-03-19 18:32:29.984; org.apache.solr.core.SolrCore; [wiki1] webapp=/solr path=/analysis/field params={analysis.fieldvalue=e%3Dmc^2&analysis.showmatch=true&wt=json&analysis.query=e%3Dmc^2&analysis.fieldtype=text_cjk&_=1458408749969} status=0 QTime=2 
+INFO  - 2016-03-19 18:32:33.933; org.apache.solr.core.SolrCore; [wiki1] webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1458408753920} status=0 QTime=2 
+INFO  - 2016-03-19 18:32:33.967; org.apache.solr.core.SolrCore; [wiki1] webapp=/solr path=/analysis/field params={analysis.fieldvalue=e%3Dmc^2&analysis.showmatch=true&wt=json&analysis.query=e%3Dmc^2&analysis.fieldtype=text_bg&_=1458408753953} status=0 QTime=2 
+INFO  - 2016-03-19 18:33:08.465; org.apache.solr.core.SolrCore; [wiki1] webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1458408788451} status=0 QTime=3 
+INFO  - 2016-03-19 18:33:08.497; org.apache.solr.core.SolrCore; [wiki1] webapp=/solr path=/analysis/field params={analysis.fieldvalue=e%3Dmc^2&analysis.showmatch=true&analysis.fieldname=text&wt=json&analysis.query=e%3Dmc^2&_=1458408788483} status=0 QTime=1 
+INFO  - 2016-03-19 18:37:20.545; org.eclipse.jetty.server.Server; Graceful shutdown SocketConnector@0.0.0.0:8983
+INFO  - 2016-03-19 18:37:20.554; org.eclipse.jetty.server.Server; Graceful shutdown o.e.j.w.WebAppContext{/solr,file:/C:/Users/User/Dropbox/Master/Project/Wiki-Math-Recommender/solr-4.9.1/example/solr-webapp/webapp/},C:\Users\User\Dropbox\Master\Project\Wiki-Math-Recommender\solr-4.9.1\example/webapps/solr.war
+INFO  - 2016-03-19 18:37:21.574; org.apache.solr.core.CoreContainer; Shutting down CoreContainer instance=1409545055
+INFO  - 2016-03-19 18:37:21.582; org.apache.solr.core.SolrCore; [collection1]  CLOSING SolrCore org.apache.solr.core.SolrCore@1fd2cb02
+INFO  - 2016-03-19 18:37:21.591; org.apache.solr.update.DirectUpdateHandler2; closing DirectUpdateHandler2{commits=0,autocommit maxTime=15000ms,autocommits=0,soft autocommits=0,optimizes=0,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=0,cumulative_deletesById=0,cumulative_deletesByQuery=0,cumulative_errors=0,transaction_logs_total_size=1216,transaction_logs_total_number=2}
+INFO  - 2016-03-19 18:37:21.614; org.apache.solr.update.SolrCoreState; Closing SolrCoreState
+INFO  - 2016-03-19 18:37:21.617; org.apache.solr.update.DefaultSolrCoreState; SolrCoreState ref count has reached 0 - closing IndexWriter
+INFO  - 2016-03-19 18:37:21.631; org.apache.solr.update.DefaultSolrCoreState; closing IndexWriter with IndexWriterCloser
+INFO  - 2016-03-19 18:37:21.640; org.apache.solr.core.SolrCore; [collection1] Closing main searcher on request.
+INFO  - 2016-03-19 18:37:21.644; org.apache.solr.core.CachingDirectoryFactory; Closing NRTCachingDirectoryFactory - 2 directories currently being tracked
+INFO  - 2016-03-19 18:37:21.648; org.apache.solr.core.CachingDirectoryFactory; looking to close C:\Users\User\Dropbox\Master\Project\Wiki-Math-Recommender\solr-4.9.1\example\solr\collection1\data [CachedDir<<refCount=0;path=C:\Users\User\Dropbox\Master\Project\Wiki-Math-Recommender\solr-4.9.1\example\solr\collection1\data;done=false>>]
+INFO  - 2016-03-19 18:37:21.662; org.apache.solr.core.CachingDirectoryFactory; Closing directory: C:\Users\User\Dropbox\Master\Project\Wiki-Math-Recommender\solr-4.9.1\example\solr\collection1\data
+INFO  - 2016-03-19 18:37:21.666; org.apache.solr.core.CachingDirectoryFactory; looking to close C:\Users\User\Dropbox\Master\Project\Wiki-Math-Recommender\solr-4.9.1\example\solr\collection1\data\index [CachedDir<<refCount=0;path=C:\Users\User\Dropbox\Master\Project\Wiki-Math-Recommender\solr-4.9.1\example\solr\collection1\data\index;done=false>>]
+INFO  - 2016-03-19 18:37:21.682; org.apache.solr.core.CachingDirectoryFactory; Closing directory: C:\Users\User\Dropbox\Master\Project\Wiki-Math-Recommender\solr-4.9.1\example\solr\collection1\data\index
+INFO  - 2016-03-19 18:37:21.685; org.apache.solr.core.SolrCore; [wiki1]  CLOSING SolrCore org.apache.solr.core.SolrCore@7e5843f3
+INFO  - 2016-03-19 18:37:21.688; org.apache.solr.update.DirectUpdateHandler2; closing DirectUpdateHandler2{commits=0,autocommit maxTime=15000ms,autocommits=0,soft autocommits=0,optimizes=0,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=0,cumulative_deletesById=0,cumulative_deletesByQuery=0,cumulative_errors=0,transaction_logs_total_size=137939387,transaction_logs_total_number=1}
+INFO  - 2016-03-19 18:37:21.697; org.apache.solr.update.SolrCoreState; Closing SolrCoreState
+INFO  - 2016-03-19 18:37:21.699; org.apache.solr.update.DefaultSolrCoreState; SolrCoreState ref count has reached 0 - closing IndexWriter
+INFO  - 2016-03-19 18:37:21.713; org.apache.solr.update.DefaultSolrCoreState; closing IndexWriter with IndexWriterCloser
+INFO  - 2016-03-19 18:37:21.718; org.apache.solr.core.SolrCore; [wiki1] Closing main searcher on request.
+INFO  - 2016-03-19 18:37:21.725; org.apache.solr.core.CachingDirectoryFactory; Closing NRTCachingDirectoryFactory - 2 directories currently being tracked
+INFO  - 2016-03-19 18:37:21.729; org.apache.solr.core.CachingDirectoryFactory; looking to close C:\Users\User\Dropbox\Master\Project\Wiki-Math-Recommender\solr-4.9.1\example\solr\wiki1\data\index [CachedDir<<refCount=0;path=C:\Users\User\Dropbox\Master\Project\Wiki-Math-Recommender\solr-4.9.1\example\solr\wiki1\data\index;done=false>>]
+INFO  - 2016-03-19 18:37:21.736; org.apache.solr.core.CachingDirectoryFactory; Closing directory: C:\Users\User\Dropbox\Master\Project\Wiki-Math-Recommender\solr-4.9.1\example\solr\wiki1\data\index
+INFO  - 2016-03-19 18:37:21.739; org.apache.solr.core.CachingDirectoryFactory; looking to close C:\Users\User\Dropbox\Master\Project\Wiki-Math-Recommender\solr-4.9.1\example\solr\wiki1\data [CachedDir<<refCount=0;path=C:\Users\User\Dropbox\Master\Project\Wiki-Math-Recommender\solr-4.9.1\example\solr\wiki1\data;done=false>>]
+INFO  - 2016-03-19 18:37:21.759; org.apache.solr.core.CachingDirectoryFactory; Closing directory: C:\Users\User\Dropbox\Master\Project\Wiki-Math-Recommender\solr-4.9.1\example\solr\wiki1\data
+INFO  - 2016-03-19 18:37:21.765; org.eclipse.jetty.server.handler.ContextHandler; stopped o.e.j.w.WebAppContext{/solr,file:/C:/Users/User/Dropbox/Master/Project/Wiki-Math-Recommender/solr-4.9.1/example/solr-webapp/webapp/},C:\Users\User\Dropbox\Master\Project\Wiki-Math-Recommender\solr-4.9.1\example/webapps/solr.war
