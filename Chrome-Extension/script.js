@@ -98,7 +98,7 @@ chrome_getJSON = function(url,event) {
 
 		
 		//Create request HERE:
-		chrome_getJSON("http://localhost:8983/solr/wiki1/select?q=" +searchTerm +"&wt=json",event);
+		chrome_getJSON("http://localhost:8983/solr/wiki1_extracted_XML/select?q=math:" +searchTerm +"&wt=json",event);
 		//$("#dialog").dialog("option", { position: [e.pageX, e.pageY] });
 	});
 

@@ -1,0 +1,10 @@
+<dataConfig>
+	<dataSource type="FileDataSource" encoding="UTF-8" />
+	<document>
+		<entity name="page" processor="XPathEntityProcessor" stream="true" forEach="/mediawiki/page/" url="Math-extracted-nodes.xml">
+			<field column="id"			xpath="/mediawiki/page/id"/>
+			<field column="title"		xpath="/mediawiki/page/title"/>
+			<field column="math"	xpath="/mediawiki/page/expressions/math"/>
+		</entity>
+	</document>
+</dataConfig>
